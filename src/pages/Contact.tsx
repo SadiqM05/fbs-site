@@ -16,7 +16,7 @@ export default function Contact() {
       />
 
       <Reveal>
-        <section className="mx-auto grid max-w-6xl gap-8 px-6 py-8 lg:grid-cols-2">
+        <section className="mx-auto grid max-w-6xl gap-8 bg-section px-6 py-8 lg:grid-cols-2">
           <div className="flex flex-col gap-4">
             <ContactInfoCard icon={MapPin} label="Address" value="123 Main St, Your City" />
             <ContactInfoCard icon={Phone} label="Phone" value="(555) 123-4567" />
@@ -38,7 +38,7 @@ export default function Contact() {
                     name="name"
                     type="text"
                     required
-                    className="h-9 rounded-md border border-input bg-background px-3 text-sm outline-none focus-visible:ring-2 focus-visible:ring-ring/50"
+                    className="h-9 rounded-md border border-input bg-section text-white px-3 text-sm outline-none focus-visible:ring-2 focus-visible:ring-ring/50"
                   />
                 </div>
                 <div className="flex flex-col gap-1.5">
@@ -50,7 +50,7 @@ export default function Contact() {
                     name="email"
                     type="email"
                     required
-                    className="h-9 rounded-md border border-input bg-background px-3 text-sm outline-none focus-visible:ring-2 focus-visible:ring-ring/50"
+                    className="h-9 rounded-md border border-input bg-section text-white px-3 text-sm outline-none focus-visible:ring-2 focus-visible:ring-ring/50"
                   />
                 </div>
                 <div className="flex flex-col gap-1.5">
@@ -62,7 +62,7 @@ export default function Contact() {
                     name="message"
                     rows={4}
                     required
-                    className="rounded-md border border-input bg-background px-3 py-2 text-sm outline-none focus-visible:ring-2 focus-visible:ring-ring/50"
+                    className="rounded-md border border-input bg-section text-white px-3 py-2 text-sm outline-none focus-visible:ring-2 focus-visible:ring-ring/50"
                   />
                 </div>
                 <Button type="submit" className="w-fit">

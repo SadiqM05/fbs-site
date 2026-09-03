@@ -57,7 +57,7 @@ export function Navbar() {
         </nav>
 
         <div className="hidden md:block">
-          <Button asChild size="sm" variant="secondary">
+          <Button asChild size="sm">
             <NavLink to="/contact">Join Now</NavLink>
           </Button>
         </div>

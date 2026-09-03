@@ -47,7 +47,7 @@ export default function PersonalTraining() {
       />
 
       <Reveal>
-        <section className="mx-auto max-w-6xl px-6 py-8">
+        <section className="mx-auto max-w-6xl bg-section px-6 py-8">
           <SectionHeading eyebrow="How it works" title="Getting started is simple" align="center" />
           <div className="mt-10 grid gap-4 sm:grid-cols-3">
             {STEPS.map((item) => (
@@ -64,7 +64,7 @@ export default function PersonalTraining() {
       </Reveal>
 
       <Reveal>
-        <section className="mx-auto max-w-6xl px-6 py-8">
+        <section className="mx-auto max-w-6xl bg-section px-6 py-8">
           <SectionHeading eyebrow="Our Trainers" title="Meet the coaching staff" align="center" />
           <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {TRAINERS.map((trainer) => (

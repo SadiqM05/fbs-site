@@ -48,7 +48,7 @@ export default function Home() {
       </HeroSection>
 
       <Reveal>
-        <section className="mx-auto max-w-6xl px-6 py-8">
+        <section className="mx-auto max-w-6xl bg-section px-6 py-8">
           <SectionHeading
             eyebrow="What we offer"
             title="Everything you need in one place"

@@ -28,7 +28,7 @@ export default function About() {
       />
 
       <Reveal>
-        <section className="mx-auto max-w-3xl px-6 py-8">
+        <section className="mx-auto max-w-3xl bg-section px-6 py-8">
           <SectionHeading title="Our Story" />
           <p className="mt-4 text-base text-muted-foreground">
             Frankie's Body Shop started as a small strength gym and grew into a full training
@@ -39,7 +39,7 @@ export default function About() {
       </Reveal>
 
       <Reveal>
-        <section className="mx-auto max-w-6xl px-6 py-8">
+        <section className="mx-auto max-w-6xl bg-section px-6 py-8">
           <SectionHeading eyebrow="What we believe" title="Our values" align="center" />
           <div className="mt-10 grid gap-4 sm:grid-cols-3">
             {VALUES.map((value) => (

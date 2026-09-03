@@ -14,7 +14,7 @@ interface HeroSectionProps {
 
 export function HeroSection({ eyebrow, title, subtitle, children, className }: HeroSectionProps) {
   return (
-    <section className={cn('border-b border-border bg-background', className)}>
+    <section className={cn('border-b border-border bg-section', className)}>
       <motion.div
         initial="hidden"
         animate="visible"

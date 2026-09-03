@@ -47,7 +47,7 @@ export default function CombatClub() {
       />
 
       <Reveal>
-        <section className="mx-auto max-w-6xl px-6 py-8">
+        <section className="mx-auto max-w-6xl bg-section px-6 py-8">
           <SectionHeading eyebrow="Programs" title="Find your discipline" align="center" />
           <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {PROGRAMS.map((program) => (

@@ -44,7 +44,7 @@ export default function Schedule() {
       />
 
       <Reveal>
-        <section className="mx-auto max-w-6xl px-6 py-8">
+        <section className="mx-auto max-w-6xl bg-section px-6 py-8">
           <ScheduleTable schedule={SCHEDULE} />
         </section>
       </Reveal>
